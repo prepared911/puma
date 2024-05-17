@@ -499,6 +499,7 @@ module Puma
     # @version 5.0.3
     #
     def req_env_post_parse(env)
+      return # TODO: config option to enable this
       to_delete = nil
       to_add = nil
 
